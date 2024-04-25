@@ -1,8 +1,8 @@
-package controllers
+package handlers
 
 import (
-	"github.com/askaroe/simple-api/initialize"
-	"github.com/askaroe/simple-api/models"
+	"github.com/askaroe/simple-api/internal/initialize"
+	"github.com/askaroe/simple-api/internal/models"
 	"github.com/gin-gonic/gin"
 )
 
