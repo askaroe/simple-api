@@ -1,8 +1,14 @@
 package main
 
 import (
+	"github.com/askaroe/simple-api/initialize"
 	"github.com/gin-gonic/gin"
 )
+
+func init() {
+	initialize.LoadEnvVariables()
+	initialize.ConnectToDb()
+}
 
 func main() {
 	r := gin.Default()
