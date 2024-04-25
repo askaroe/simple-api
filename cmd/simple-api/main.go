@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/askaroe/simple-api/handlers"
-	initialize2 "github.com/askaroe/simple-api/internal/initialize"
+	"github.com/askaroe/simple-api/internal/handlers"
+	"github.com/askaroe/simple-api/internal/initialize"
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
-	initialize2.LoadEnvVariables()
-	initialize2.ConnectToDb()
+	initialize.LoadEnvVariables()
+	initialize.ConnectToDb()
 }
 
 func main() {
