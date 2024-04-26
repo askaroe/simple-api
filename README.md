@@ -1,7 +1,3 @@
-Here's a basic README for your Go project:
-
----
-
 # Simple API
 
 This is a simple API project written in Go, using the Gin web framework.
